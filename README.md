@@ -18,9 +18,6 @@
 [![Buy Me A Coffee](https://cdn.buymeacoffee.com/buttons/v2/default-yellow.png)](https://www.buymeacoffee.com/Souvic)
 
 
-Some appreciatory description
-- [ ] Lightweight
-- [x] Easiest to use 
 
 ## Install from PyPi
 ```
