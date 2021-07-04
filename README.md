@@ -19,8 +19,8 @@
 
 
 Some appreciatory description
-- [x] Lightweight
-- [x] Easiest to use 
+- [] Lightweight
+- [] Easiest to use 
 
 ## Install from PyPi
 ```
