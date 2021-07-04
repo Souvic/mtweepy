@@ -51,14 +51,15 @@ An example usage is provided here.
 ### Gets 5000*ceil(max_num/5000) number of followers' userids as a list for screen_name INCIndia
 
 ```
-list_followers= get_followers("INCIndia", max_num=500)#gets list of followers appended in chunk of 5000, if max_num<5000, will get last 5000 followers.
+list_followers= get_followers(auths, "INCIndia", max_num=500)#gets list of followers appended in chunk of 5000, if max_num<5000, will get last 5000 followers.
 ```
 
 ### Gets all the maximally extended user objects for list_followers(a list of user ids)
 The output is saved in the output_folder as multiple jsonl files(one file per access token).
 Each line of jsonl files contains the maximally extended user object for one user.
 ```
-list_followers= get_followers("INCIndia", max_num=500)#gets list of followers appended in chunk of 5000, if max_num<5000, will get last 5000 followers.
+get_users(auths, list_followers, output_folder="./testfolder")
+
 ```
 
 ### Gets all the tweets in the timelines of list_followers(a list of user ids)
@@ -66,7 +67,7 @@ The output is saved in the output_folder as multiple jsonl files(one file per ac
 Each line of jsonl files contains last 3200 tweets of a user.
 
 ```
-list_followers= get_followers("INCIndia", max_num=500)#gets list of followers appended in chunk of 5000, if max_num<5000, will get last 5000 followers.
+get_timeline(auths, list_followers, output_folder="./testfolder")
 ```
 
 You can use
