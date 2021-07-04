@@ -1,4 +1,4 @@
-# Makes _something_ easy again!
+# Makes twitter scrapping with multiple twitters apps easy again!
 [![License: MIT](https://img.shields.io/github/license/Souvic/mtweepy)](https://opensource.org/licenses/MIT)
 [![stars](https://img.shields.io/github/stars/Souvic/mtweepy)]()
 [![Github All Releases](https://img.shields.io/github/downloads/huggingface/transformers/total.svg)]()
@@ -6,7 +6,7 @@
 [![python](https://img.shields.io/github/languages/top/Souvic/mtweepy)]()
 
 [![Build Status](https://scrutinizer-ci.com/g/Souvic/mtweepy/badges/build.png?b=main)](https://scrutinizer-ci.com/g/Souvic/mtweepy/build-status/main)
-[![Scrutinizer Code Quality](https://scrutinizer-ci.com/g/Souvic/package_creator/badges/quality-score.png?b=main)](https://scrutinizer-ci.com/g/Souvic/package_creator/?branch=main)
+[![Scrutinizer Code Quality](https://scrutinizer-ci.com/g/Souvic/mtweepy/badges/quality-score.png?b=main)](https://scrutinizer-ci.com/g/Souvic/mtweepy/?branch=main)
 [![Release date](https://img.shields.io/github/release-date/Souvic/mtweepy)]()
 [![Latest Stable Version](https://img.shields.io/github/v/release/Souvic/mtweepy)]()
 
@@ -32,7 +32,8 @@ pip3 install mtweepy
 pip3 install git+https://github.com/Souvic/mtweepy.git
 ```
 
-# One interactive command with easy-to-follow prompts to create/upload/update them all!
+# Example usage
+There are three functions
 ```
 cmpp
 ```
