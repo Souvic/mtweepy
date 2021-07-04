@@ -33,9 +33,17 @@ pip3 install git+https://github.com/Souvic/mtweepy.git
 ```
 
 # Example usage
-There are three functions
+There are three functions in the repo: get_followers, get_timelines, get_users.
+All the functions use all the auth tokens optimally for fastest scraping.
+Apart from auths all the other inputs are self explantory.
+As auths, a list of tweepy bearer tokens are expected if you want to use oauth2 limits for twitter api.
+As auths, a list of \[client\_id,client_secret,user\_id, user\_token\] are expected if you want to use oauth2 limits for twitter api.
+use_userid parameter is by default _False_. If it is passed as _True_ in get_followers, 
+An example usage is provided here.
 ```
-cmpp
+list_followers= get_followers("INCIndia", max_num=500)#gets list of followers appended in chunk of 5000, if max_num<5000, will get last 5000 followers.
+
+
 ```
 
 You can use
