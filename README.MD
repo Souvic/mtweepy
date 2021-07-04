@@ -56,7 +56,7 @@ list_followers= get_followers(auths, "INCIndia", max_num=500)#gets list of follo
 The output is saved in the output_folder as multiple jsonl files(one file per access token).
 Each line of jsonl files contains the maximally extended user object for one user.
 ```
-get_users(auths, list_followers, output_folder="./testfolder")
+get_users(auths, list_followers, output_folder="./testfolder1")
 
 ```
 
@@ -65,7 +65,7 @@ The output is saved in the output_folder as multiple jsonl files(one file per ac
 Each line of jsonl files contains last 3200 tweets of a user.
 
 ```
-get_timelines(auths, list_followers, output_folder="./testfolder")
+get_timelines(auths, list_followers, output_folder="./testfolder2")
 ```
 
 You can use
