@@ -10,7 +10,7 @@
 [![Release date](https://img.shields.io/github/release-date/Souvic/mtweepy)]()
 [![Latest Stable Version](https://img.shields.io/github/v/release/Souvic/mtweepy)]()
 
-[![tweet](https://img.shields.io/twitter/url?style=social&url=https%3A%2F%2Fgithub.com%2FSouvic%2Fmtweepy)]()
+[![tweet](https://img.shields.io/twitter/url?style=social&url=https%3A%2F%2Fgithub.com%2FSouvic%2Fmtweepy)](https://twitter.com/intent/tweet?text=I%20found%20this%20awesome%20repo%20on%20github%20%26%20PyPI%20that%20makes%20twitter%20scraping%20fastest%20with%20multpl%20token%20support%2C%20oauth1%262!!&url=https%3A%2F%2Fgithub.com%2FSouvic%2Fmtweepy)
 
 ### Support me
 
