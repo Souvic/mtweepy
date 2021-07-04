@@ -135,7 +135,7 @@ def get_timeline_single_mp_aux(index,auths,users,output_folder):
             outfile.write('\n')
         
         
-def get_timeline(auths,users,output_folder):
+def get_timelines(auths,users,output_folder):
     if(not os.path.isdir(output_folder)):
         print(f"Not a directory: {output_folder}")
         return(None)
