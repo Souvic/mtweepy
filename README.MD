@@ -51,6 +51,7 @@ An example usage is provided here.
 ### Gets 5000*ceil(max_num/5000) number of followers' userids as a list for screen_name INCIndia
 
 ```
+from mtweepy import get_followers, get_users, get_timelines
 list_followers= get_followers(auths, "INCIndia", max_num=500)#gets list of followers appended in chunk of 5000, if max_num<5000, will get last 5000 followers.
 ```
 
@@ -67,7 +68,7 @@ The output is saved in the output_folder as multiple jsonl files(one file per ac
 Each line of jsonl files contains last 3200 tweets of a user.
 
 ```
-get_timeline(auths, list_followers, output_folder="./testfolder")
+get_timelines(auths, list_followers, output_folder="./testfolder")
 ```
 
 You can use
