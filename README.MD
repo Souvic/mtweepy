@@ -37,15 +37,12 @@ There are three functions in the repo: get_followers, get_timelines, get_users.
 
 All the functions use all the auth tokens optimally for fastest scraping.
 
-Apart from auths all the other inputs are self explantory.
+Apart from self explantory inputs:
 
-As auths, a list of tweepy bearer tokens are expected if you want to use oauth2 limits for twitter api.
-
-As auths, a list of \[client\_id,client_secret,user\_id, user\_token\] are expected if you want to use oauth2 limits for twitter api.
-
-use_userid parameter is by default _False_. If it is passed as _True_ in get_followers, get_followers will treat the screen_name_or_userid parameter as userid for which follower is to be scraped.
-
-output_folder is supposed to be an empty folder to save output from get_timelines and get_users functions.
+1. As auths, a list of tweepy bearer tokens are expected if you want to use oauth2 limits for twitter api.
+2. As auths, a list of \[_oauth_consumer_key, oauth_consumer_secret, client_secret, oauth_token, oauth_token_secret_] are expected if you want to use oauth1 limits for twitter api.
+3. use_userid parameter is by default _False_. If it is passed as _True_ in get_followers, get_followers will treat the screen_name_or_userid parameter as userid for which follower is to be scraped.
+4. output_folder is supposed to be an empty folder to save output from get_timelines and get_users functions.
 
 An example usage is provided here.
 ### Gets 5000*ceil(max_num/5000) number of followers' userids as a list for screen_name INCIndia
