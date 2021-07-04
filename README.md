@@ -65,7 +65,5 @@ Each line of jsonl files contains last 3200 tweets of a user.
 get_timelines(auths, list_followers, output_folder="./testfolder2")
 ```
 
-You can use
-[Github-flavored Markdown](https://guides.github.com/features/mastering-markdown/)
-to write your content.
+
 
