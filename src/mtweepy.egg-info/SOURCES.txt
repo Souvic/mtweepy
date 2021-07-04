@@ -1,0 +1,10 @@
+LICENSE
+README.md
+pyproject.toml
+setup.cfg
+src/mtweepy/__init__.py
+src/mtweepy.egg-info/PKG-INFO
+src/mtweepy.egg-info/SOURCES.txt
+src/mtweepy.egg-info/dependency_links.txt
+src/mtweepy.egg-info/requires.txt
+src/mtweepy.egg-info/top_level.txt
