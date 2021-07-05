@@ -64,6 +64,15 @@ Each line of jsonl files contains last 3200 tweets of a user.
 ```
 get_timelines(auths, list_followers, output_folder="./testfolder2")
 ```
+### To get the total number of lines written in files in the directory ./testfolder1
+Type this in commandline at any point of data collection
+```
+find ./testfolder1 -name '*.jsonl' | xargs wc -l
+```
+For _get_users function_: Each line contains 100 users approximately.
+For _get_timelines function_: Each line contains 1 user timeline.
+
+So you can calculate an approximate rate with this function to know when data collection will be finished.
 
 
 
