@@ -130,7 +130,11 @@ def get_timeline_single_mp_aux(index,auths,users,output_folder):
     auth=auths[index]
     with open(f'{output_folder}/{index}.jsonl', 'w') as outfile:
         for user_id in users:
-            json1=get_timeline_single(auth=auth,user_id=user_id)
+            try:
+                json1=get_timeline_single(auth=auth,user_id=user_id)
+            except:
+                sleep(30)
+                continue;
             json.dump(json1, outfile)
             outfile.write('\n')
         
